@@ -1,0 +1,1 @@
+alert("El archivo esta enlazado")
