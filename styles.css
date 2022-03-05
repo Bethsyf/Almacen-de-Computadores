@@ -1,3 +1,18 @@
+html{
+    display: 0px;
+}
 body {
     background-color: ;
+}
+img{
+    width: 50px;
+}
+p{
+    display: inline-block;
+}
+
+.contenedor {
+    border: 1px solid;
+    width: auto;
+    margin: 15px;
 }
