@@ -1,18 +1,42 @@
 html{
-    display: 0px;
+    margin: 0 auto;
 }
-body {
-    background-color: ;
-}
+
 img{
     width: 50px;
 }
-p{
-    display: inline-block;
+h1{
+    text-align: center;
 }
 
+div{
+    border: 1px solid;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+}
 .contenedor {
     border: 1px solid;
-    width: auto;
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+li{
     margin: 15px;
+    list-style: none;
+}
+
+button{
+    background: red;
+    margin: 15px;
+    color: white;
+}
+
+.discount{
+    color: red;
+}
+
+.inputNum{
+    width: 5%;
 }

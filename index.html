@@ -10,22 +10,26 @@
 <body>
     <h1>Almacen de Computadores</h1>
     <nav>
-        <div class="contenedor">
+        <div >
             <p>Cantidad de computadores comprados</p>
-            <input type="number">
+            <input class="inputNum" type="number"><br>
             <button>Calcular</button>
         </div>
-        <form class="contenedor">Orden de compra
-                <div><img src="https://www.redeszone.net/app/uploads-redeszone.net/2018/07/comprar-seguridad-online.jpg?x=480&y=375&quality=40" alt="imagen de producto">
-                </div>
-               <ul>
+        <form class="contenedor">
+            <h3>Orden de compra</h3>
+                <img src="https://www.redeszone.net/app/uploads-redeszone.net/2018/07/comprar-seguridad-online.jpg?x=480&y=375&quality=40" alt="imagen de producto">
+                <ul>
                    <li>
                 <label for="buyValue">Valor de Compra</label>
-                <input type="number" id="buyValue" name="user_name"></li>
-                <li>Valor de Compra:</li>
-                <li>Valor de descuento:</li>
-                <li>Total:</li></ul>
-                <p>Su descuento fue del </p>
+                <input  type="number" id="buyValue" name="buy_Value"></li>
+                <li>
+                    <label for="discountValue">Valor de descuento</label>
+                    <input type="number" id="discountValue" name="discountValue"></li>
+                <li>
+                    <label for="total">Total</label>
+                    <input type="number" id="total" name="total"></li>
+                
+                <p class="discount">Su descuento fue del </p>
             </form>
         </ul>
     </nav>
