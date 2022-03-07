@@ -1,20 +1,22 @@
 
 h1{
     text-align: center;
+    color: indigo;
 }
 
-div{  
-    
+div{      
     border: 1px solid;
     width: 500px;
     margin: 0 auto;
-    text-align: center;         
+    text-align: center;      
+    border-radius: 20px;   
 }
 
 .contenedor {    
     width: 400px;
     margin: 0 auto;
-    text-align: center;    
+    text-align: center;  
+    border-radius: 5px;  
 }
 
 li{
@@ -26,21 +28,29 @@ button{
     background: navy;
     margin: 15px;
     color: white;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: gray;
 }
 
 .discount{
     color: red;
 }
 
+input {
+    border-radius: 5px;
+}
+
 .inputNum{
     width: 5%;
+    
 }
 
 nav{
     background-color: lightblue;
     width: 100%;
-    margin: 0px;
-    padding: 0px;
+    font-weight: bold;    
 }
 
 .menu{
@@ -48,6 +58,7 @@ nav{
     margin: 0;
     padding: 0;
     width: 100%;
+    border-radius: 5px;
 }
 
 .menu .lista{
@@ -75,11 +86,9 @@ footer{
     position: absolute;  
 }
 
-.catalog{
-    
-    padding: 15px 50px;    
-    margin-top: 8%;
-    margin-left: 10%;
+.catalog{    
+    padding: 15px 50px;       
+    margin-left: 15%;
     display: flex;
     flex-wrap: wrap;
     list-style: none;
@@ -88,3 +97,13 @@ footer{
 .catalog th:hover {
     background-color: #ddd;
   }
+
+.logo{
+    width: 70px;
+    text-align: center; 
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
