@@ -1,34 +1,29 @@
-html{
-    margin: 0 auto;
-}
 
-img{
-    
-}
 h1{
     text-align: center;
 }
 
-div{
+div{  
+    
     border: 1px solid;
     width: 500px;
     margin: 0 auto;
-    text-align: center;
-    justify-content: center;
+    text-align: center;         
 }
-.contenedor {
-    border: 1px solid;
+
+.contenedor {    
     width: 400px;
     margin: 0 auto;
-    text-align: center;
+    text-align: center;    
 }
+
 li{
     margin: 15px;
     list-style: none;
 }
 
 button{
-    background: red;
+    background: navy;
     margin: 15px;
     color: white;
 }
@@ -44,6 +39,8 @@ button{
 nav{
     background-color: lightblue;
     width: 100%;
+    margin: 0px;
+    padding: 0px;
 }
 
 .menu{
@@ -60,8 +57,7 @@ nav{
 .lista a{
     text-decoration: none;
     color: indigo;
-    padding: 15px 50px;
-    display:block;
+    padding: 15px 50px;    
 }
 
 .lista a:hover{
@@ -72,9 +68,23 @@ footer{
     background-color: lightgray;
     text-align: center;
     font-weight: bold;
-    color: black;
+    color: indigo;
     width: 100%;
     height: 100px;
     margin-top: 200px;
     position: absolute;  
 }
+
+.catalog{
+    
+    padding: 15px 50px;    
+    margin-top: 8%;
+    margin-left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.catalog th:hover {
+    background-color: #ddd;
+  }
