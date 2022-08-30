@@ -1,5 +1,5 @@
 const valorCompra = document.getElementById("valor-compra")
-const valorDesacuento = document.getElementById("valor-descuento")
+const valorDescuento = document.getElementById("valor-descuento")
 const totalCompra = document.getElementById("total")
 
 function calcular() {
@@ -26,6 +26,6 @@ function calcular() {
         alertError.innerHTML = "No hay descuento para esta compra";
     }
     valorCompra.value = resultado
-    valorDesacuento.value = descuento
+    valorDescuento.value = descuento
     totalCompra.value = valorTotal
 }
